@@ -156,7 +156,8 @@ img {
 }
 
 i{
-    font-size: large;
+  color: white;
+    font-size: 1.5rem;
 }
 
 @media only screen and (max-width: 600px) {
