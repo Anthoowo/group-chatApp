@@ -36,7 +36,6 @@ padding-top: 15%;
 .App-section {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   min-height: 100vh;
   background-color: rgb(40, 37, 53);
   
@@ -125,6 +124,7 @@ p {
 }
 
 .message {
+  margin-top: 5px;
   display: flex;
   align-items: center;
 }
