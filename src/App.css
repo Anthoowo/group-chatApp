@@ -67,7 +67,7 @@ form {
   position: fixed;
   bottom: 0;
   background-color: rgb(24, 23, 23);
-  width: 80%;
+  width: 100%;
   max-width: 728px;
   display: flex;
   font-size: 1.5rem;
@@ -168,8 +168,8 @@ i{
   }
 
   form{
-    height: 7vh;
-    width: 60%;
+    height: 8vh;
+    width: 80%;
   }
 
 }
