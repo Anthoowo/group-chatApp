@@ -35,7 +35,7 @@ function App() {
     border: '1px solid rgba(255, 255, 255, 0.49)',
     backgroundColor: 'rgb(17, 16, 18)',
     boxShadow: '0 4px 30px rgba(0, 0, 0, 0.1)',
-    width: "25rem",
+    width: "80%",
     borderRadius: '1rem'
   }
   return (
