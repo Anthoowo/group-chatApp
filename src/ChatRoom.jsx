@@ -45,8 +45,10 @@ dummy.current.scrollIntoView({behavior: 'smooth'})
 
 
     return(
-        <div className="App-section">
-            <SignOut auth={auth} />
+               <div style={{background: 'rgb(16, 16, 18)'}}>     
+                  <SignOut auth={auth} />
+                  <div className="App-section">
+                    
             {messages && messages.docs.map((msg)=>(<ChatMessage auth={auth} key= {msg.id } message = {msg}/>))}
             <div ref = {dummy}></div>
             
@@ -57,7 +59,8 @@ dummy.current.scrollIntoView({behavior: 'smooth'})
  
       </form>
       <footer ></footer>
-   
+      </div>
+
         </div> 
     ) 
 }
