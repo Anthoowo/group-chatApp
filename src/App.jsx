@@ -39,7 +39,7 @@ function App() {
   }
   return (
     <>
-      {/* <div className="d-flex align-items-center justify-content-center" style= {{min-height: '100vh'}} > */}
+
       {user ? (
         <ChatRooom auth={auth} db={db} />
       ) : (
@@ -56,7 +56,7 @@ function App() {
           </div>
         </div>
       )}
-      <footer></footer>
+     
     </>
   );
 }
